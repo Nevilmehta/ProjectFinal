@@ -149,6 +149,9 @@ def analyse_comments(df):
 
 def main():
 
+    st.title('Live Youtube video comments Sentiment Analysis')
+    st.markdown('This app uses GoogleclientApi to get youtube comments from YouTube video')
+
     with st.form(key='nlpForm'):
         video_id = st.text_input("Enter the Id of youtube Video")
         submit_button = st.form_submit_button(label='Analyze')

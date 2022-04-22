@@ -22,18 +22,19 @@ def main():
     if choice== "Home":
         home_main()
     elif choice== "Default":
-        # defaultdata_main()
-        pass
+        defaultdata_main()
+        # pass
     elif choice== "Twitter":
         twitterdata_main()        
     elif choice== "YouTube":
         youtubedata_main()
     elif choice== "Emotion":
-        pass
+        emotiondata_main()
     elif choice== "Contact":
         contact_main()
 
     st.sidebar.subheader("""RejoiceHub Solutions """)
+    st.sidebar.image('logo.jpg', width = 300)
 
 main()
 # st.sidebar.image('logo.jpg', width = 300)

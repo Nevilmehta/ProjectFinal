@@ -94,15 +94,16 @@ def main():
 
 		
 		st.write('A general purpose data exploration app')
-		file = st.file_uploader("Upload file", type=['csv' 
-												,'xlsx'
-												,'pickle'])
+		pass
+		# file = st.file_uploader("Upload file", type=['csv' 
+		# 										,'xlsx'
+		# 										,'pickle'])
 		
-		if file:
-			df= pd.read_excel(file)
-			st.write("CSV")
-			st.dataframe(df['text'])
-			st.write(CSV_File_pred(file))
+		# if file:
+		# 	df= pd.read_excel(file)
+		# 	st.write("CSV")
+		# 	st.dataframe(df['text'])
+		# 	st.write(CSV_File_pred(file))
 
 		
 		# if not file:
